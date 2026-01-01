@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+serviceAccountKey.json
+data/dataset_merged/
+data/dataset_processed/
+data/logs/
+data/debug_output/
+data/pomegranate.db
+runs/
+data/runs/
+data/Pomegranate Diseases Dataset/
+data/Pomegranate Fruit Diseases Dataset for Deep Learning Models/
+.DS_Store
+.vscode/
+.idea/

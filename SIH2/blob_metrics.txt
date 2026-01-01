@@ -1,0 +1,8 @@
+Blob: Area=568, Solidity=0.767, Ratio=0.707, BBox=(189,345,29,41)
+Blob: Area=490, Solidity=0.819, Ratio=0.488, BBox=(277,308,20,41)
+Blob: Area=130, Solidity=0.966, Ratio=0.800, BBox=(250,283,12,15)
+Blob: Area=320, Solidity=0.688, Ratio=0.767, BBox=(275,217,23,30)
+Blob: Area=280, Solidity=0.927, Ratio=0.864, BBox=(247,213,19,22)
+Blob: Area=293, Solidity=0.933, Ratio=0.679, BBox=(267,133,28,19)
+Blob: Area=375, Solidity=0.889, Ratio=0.741, BBox=(277,0,20,27)
+Blob: Area=67942, Solidity=0.762, Ratio=0.626, BBox=(6,0,243,388)
