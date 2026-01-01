@@ -33,7 +33,7 @@ The dataset used in this project is approximately **4.5 GB** and is not hosted o
 The dataset used in this project is approximately **4.5 GB** and is hosted on Kaggle.
 
 **Download Instructions:**
-1. Go to the [Kaggle Dataset Page](INSERT_YOUR_KAGGLE_LINK_HERE).
+1. Go to the [Kaggle Dataset Page](https://www.kaggle.com/datasets/soumilchandra/pomegranate-disease-dataset-includes-30000-images).
 2. Download the dataset.
 3. Extract it into the `data/` directory of this project so it looks like:
    ```
