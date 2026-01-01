@@ -25,3 +25,24 @@ This project uses Computer Vision and Deep Learning (YOLOv8) to detect diseases 
 ## Usage
 - The API runs on port 5000 by default.
 - Use `src/main_analyzer.py` for testing individual images.
+
+## Dataset
+The dataset used in this project is approximately **4.5 GB** and is not hosted on GitHub due to size limitations.
+
+## Dataset
+The dataset used in this project is approximately **4.5 GB** and is hosted on Kaggle.
+
+**Download Instructions:**
+1. Go to the [Kaggle Dataset Page](INSERT_YOUR_KAGGLE_LINK_HERE).
+2. Download the dataset.
+3. Extract it into the `data/` directory of this project so it looks like:
+   ```
+   data/
+   ├── Pomegranate Diseases Dataset/
+   └── dataset_merged/
+   ```
+   ```
+   data/
+   ├── Pomegranate Diseases Dataset/
+   └── dataset_merged/
+   ```
