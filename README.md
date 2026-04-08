@@ -1,48 +1,104 @@
-# Pomegranate Disease Detection System
+# 🌱 Pomegranate Disease Detection using YOLOv8
 
-This project uses Computer Vision and Deep Learning (YOLOv8) to detect diseases in pomegranate plants.
+A computer vision system for detecting and classifying pomegranate plant diseases using the YOLOv8 object detection model.
 
-## Project Structure
-- `src/`: Source code for the API server and analysis logic.
-- `model/`: Trained YOLOv8 models.
-- `data/`: Sample data and database files (mostly ignored by git).
+---
 
-## Setup
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Run the API Server:
-   ```bash
-   cd src
-   python api_server.py
-   ```
-   Or from root:
-   ```bash
-   python -m src.api_server
-   ```
+## 🚀 Problem
 
-## Usage
-- The API runs on port 5000 by default.
-- Use `src/main_analyzer.py` for testing individual images.
+Plant diseases significantly impact agricultural productivity. Manual inspection is time-consuming, error-prone, and not scalable for large farms.
 
-## Dataset
-The dataset used in this project is approximately **4.5 GB** and is not hosted on GitHub due to size limitations.
+---
 
-## Dataset
-The dataset used in this project is approximately **4.5 GB** and is hosted on Kaggle.
+## 💡 Solution
 
-**Download Instructions:**
-1. Go to the [Kaggle Dataset Page](https://www.kaggle.com/datasets/soumilchandra/pomegranate-disease-dataset-includes-30000-images).
-2. Download the dataset.
-3. Extract it into the `data/` directory of this project so it looks like:
-   ```
-   data/
-   ├── Pomegranate Diseases Dataset/
-   └── dataset_merged/
-   ```
-   ```
-   data/
-   ├── Pomegranate Diseases Dataset/
-   └── dataset_merged/
-   ```
+This project leverages **YOLOv8** to automatically detect and classify diseases in pomegranate crops from images, enabling faster and more accurate diagnosis.
+
+---
+
+## 🧠 Model Overview
+
+* **Model:** YOLOv8 (Ultralytics)
+* **Task:** Object Detection
+* **Classes:** (Add your disease classes here)
+* **Framework:** PyTorch
+
+---
+
+## ⚙️ ML Pipeline
+
+1. Data collection (images of healthy & diseased plants)
+2. Data annotation (bounding boxes for disease regions)
+3. Model training using YOLOv8
+4. Evaluation using validation dataset
+5. Inference on new images
+
+---
+
+## 📊 Results
+
+*(IMPORTANT — fill these if possible)*
+
+* Accuracy / mAP: XX%
+* Training epochs: XX
+* Dataset size: XXXX images
+
+---
+
+## 🧪 Sample Output
+
+(Add prediction images here if available)
+
+---
+
+## 📈 Key Features
+
+* Real-time disease detection
+* Bounding box localization
+* Multi-class classification
+* Fast inference using YOLO architecture
+
+---
+
+## 🌍 Applications
+
+* Smart agriculture systems
+* Crop monitoring tools
+* Automated farm inspection
+* Agricultural research
+
+---
+
+## ⚠️ Challenges
+
+* Limited dataset size
+* Variability in lighting and image quality
+* Class imbalance
+
+---
+
+## 🔮 Future Improvements
+
+* Larger and more diverse dataset
+* Mobile deployment
+* Integration with drone-based monitoring
+* Model optimization for edge devices
+
+---
+
+## 📦 Installation
+
+```bash id="fhdfqt"
+git clone https://github.com/SOUMILCHANDRA/Pomegranate-disease-detection-model-on-yolov8-
+cd Pomegranate-disease-detection-model-on-yolov8-
+pip install -r requirements.txt
+python detect.py
+```
+
+---
+
+## 👤 Author
+
+Soumil Chandra
+Full Stack & Data Visualization Engineer
+
