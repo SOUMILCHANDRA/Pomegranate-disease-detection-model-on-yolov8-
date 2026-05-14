@@ -1,4 +1,4 @@
-# 🌱 Pomegranate Disease Detection using YOLOv8
+# 🌱  Pomegranate Disease Detection using YOLOv8
 
 A computer vision system for detecting and classifying pomegranate plant diseases using the YOLOv8 object detection model.
 
