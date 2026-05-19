@@ -6,7 +6,7 @@ A computer vision system for detecting and classifying pomegranate plant disease
 
 ## 🚀 Problem
 
-Plant diseases significantly impact agricultural productivity. Manual inspection is time-consuming, error-prone, and not scalable for large farms.
+Plant diseases significantly impact agricultural productivity. Manual inspection is time-consuming, error-prone, and not scalable for  large farms.
 
 ---
 
